@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Homepage </title>
+		<meta name="viewport" content="width=device-width">
+		<link href="layout.css" rel="stylesheet" type"text/css" />
+		<script src="jquery-2.1.1.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div id="main">
+			<form method="get" id="search" action="http://duckduckgo.com/">
+			    <input type="text" name="q" maxlength="255" placeholder="Search&hellip;"/>
+			    <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+			</form>
+			<div id="navigation">
+				<ul>
+					<li id="standard"><a id="category" >Standard</a>
+						<ul>
+							<li><a id="gmail" href="http://www.gmail.com">Gmail</a></li>
+							<li><a id="reddit" href="http://www.reddit.com">Reddit</a></li>
+							<li><a id="youtube" href="https://www.youtube.com">Youtube</a></li>
+						</ul>
+					</li>
+					<li id="News"><a id="category" >News</a>
+						<ul>
+							<li><a id="hn" href="http://news.ycombinator.com/news">hn</a></li>
+							<li><a id="bbc" href="http://www.bbc.com/news/">bbc</a></li>
+						</ul>
+					</li>
+					<li id="Investing"><a id="category" >Investing</a>
+						<ul>
+							<li><a id="GoogFin" href="http://www.google.com/finance">GoogFin</a></li>
+							<li><a id="CoB&F" href="http://www.cornerofberkshireandfairfax.ca/forum/index.php">CoB&F</a></li>
+							<li><a id="dataroma" href="http://www.dataroma.com/m//home.php">dataroma</a></li>
+						</ul>
+					</li>
+					<li id="School"><a id="category" >School</a>
+						<ul>
+							<li><a id="uvic" href="https://www.uvic.ca/">uvic</a></li>
+							<li><a id="connex" href="https://connex.csc.uvic.ca/portal">connex</a></li>
+							<li><a id="learninginmotion" href="https://learninginmotion.uvic.ca/home.htm">learninginmotion</a></li>
+						</ul>
+					</li>
+					<li id="misc"><a id="category" >Misc</a>
+						<ul>
+							<li><a id="torrentz" href="http://www.torrentz.com/">torrentz</a></li>
+							<li><a id="wikipedia" href="http://en.wikipedia.org/wiki/Main_Page">wikipedia</a></li>
+							<li><a id="fit" href="http://boards.4chan.org/fit/">fit</a></li>
+							<li><a id="fb" href="https://www.facebook.com/">fb</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
